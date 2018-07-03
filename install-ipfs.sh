@@ -1,5 +1,6 @@
 #!/bin/bash
 
+export GOPATH=$HOME/go
 cd "$(dirname "$0")"
 
 if [ ! $GOPATH ]; then
